@@ -1,0 +1,70 @@
+.App {
+  background: linear-gradient(to bottom, #3494E6, #EC6EAD);
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.displayFlex {
+  display: flex;
+}
+
+.Container {
+  background: linear-gradient(to bottom, #3494E6, #EC6EAD);
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.App-login {
+  background: linear-gradient(135deg, #17C3B2, #5B0E0E);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-container {
+  background: linear-gradient(to bottom, #5B86E5, #36D1DC);
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  text-align: center;
+}
+
+.login-heading {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #5B0E0E;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  margin-bottom: 10px;
+}
+
+.form-control {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.login-button {
+  background: #1762c3;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.login-button:hover {
+  background: #14A6A0;
+}
